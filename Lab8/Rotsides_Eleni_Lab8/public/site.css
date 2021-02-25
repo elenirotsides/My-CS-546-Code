@@ -1,0 +1,51 @@
+.background {
+    background-color: lightgray;
+}
+
+h1 {
+    color: purple;
+    font-size: 30pt;
+    text-align: center;
+}
+
+p {
+    font-size: 18pt;
+    text-align: center;
+}
+form {
+    color: purple;
+    font-size: 18pt;
+    text-align: center;
+}
+button {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.atag {
+    text-align: center;
+}
+
+a {
+    color: rgb(165, 1, 138);
+}
+a:hover {
+    color: black;
+}
+
+#success {
+    color: #28a745;
+}
+
+#failure {
+    color: #dc3545;
+}
+
+input {
+    text-align: center;
+}

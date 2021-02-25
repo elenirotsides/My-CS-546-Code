@@ -1,0 +1,20 @@
+{{#if error}}
+<div class="errorDiv">403 Forbidden: You are not logged in, please login below:</div>
+{{/if}}
+{{#if error2}}
+<div class="errorDiv">Error 401: Log in unsuccessful, please try again</div>
+{{/if}}
+
+<form autocomplete="off" method="POST" id="login-form" action="/login">
+    <label for="username">
+        Username <br />
+        <input type="text" name="username" id="username" required>
+    </label>
+    <br>
+    <label for="password">
+        Password <br />
+        <input type="password" name="password" id="password" required>
+    </label>
+    <br>
+    <button type="submit">Log In</button>
+</form>

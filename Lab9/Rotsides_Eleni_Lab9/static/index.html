@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="background" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Best Palindrome Checker in the world!</title>
+        <link rel="stylesheet" href="/public/css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>The Best Palindrome Checker in the world!</h1>
+            <p>
+                Want to check whether or not a word or phrase is a palindrome? Fear not, your wish is my command,
+                this website will allow you to do just that! A palindrome is a phrase that is spelled the same way,
+                backwards and forwards (ignoring spacing and punctuation; only alphanumeric characters matter).
+            </p>
+        </header>
+
+        <div id="error" class="error" hidden></div>
+        <br />
+        <form method="POST" id="myForm">
+            <label for="input">
+                Check for a Palindrome: <br />
+                <textarea name="phrase" id="input"></textarea>
+            </label>
+            <br />
+            <button type="submit">Click to Check</button>
+        </form>
+        <br />
+        <p id="ulP">You've Checked:</p>
+        <ol id="attempts"></ol>
+
+        <footer>
+            <div class="split left">
+                <div>
+                    <p class="left" id="key">Key:</p>
+                    <p class="left" id="yes">Palindrome</p>
+                    <p class="left" id="no">Not a Palindrome</p>
+                </div>
+            </div>
+            <div class="split right">
+                <div>
+                    <p class="right" id="name">
+                        Eleni Rotsides <br />
+                        10424305
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="/public/js/palindrome.js"></script>
+    </body>
+</html>
