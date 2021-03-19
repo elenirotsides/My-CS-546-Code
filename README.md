@@ -1,6 +1,8 @@
 # Web Programming I: CS-546
 
-Below is a description of the course taken straight from the syllabus
+This is my coursework for an introduction to web programming course I took at Stevens Institute of Technology. You can also find my coursework for [CS-554, an Advanced Web Programming](https://github.com/elenirotsides/My-CS-554-Code) course I took by clicking that link :arrow_left:. 
+
+Below is a description of the course taken straight from the syllabus:
 
 ## Course Description
 
