@@ -29,4 +29,4 @@ After successful completion of this course, students will be able to...
 
 ## Final Project
 
-The final project my group and I submitted can be found [here, called Gyro](https://github.com/elenirotsides/Gyro). Please take a look if you'd like!
+The final project my group and I developed can be found [here, called Gyro](https://github.com/elenirotsides/Gyro). Please take a look if you'd like!
